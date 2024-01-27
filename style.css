@@ -10,4 +10,39 @@ body {
   justify-content: center;
   height: 100vh;
   background-color: chocolate;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+}
+
+#container-principal {
+  border: 2px solid black;
+  height: 700px;
+  width: 700px;
+  display: grid;
+  background-color: white;
+  border-radius: 6px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#reload,
+#black,
+#random {
+  margin-top: 20px;
+  background-color: antiquewhite;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-transform: capitalize;
+  border-radius: 6px;
 }
